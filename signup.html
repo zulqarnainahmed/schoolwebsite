@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student SignUP Form</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="nav">
+      <nav id="nav">
+        <ul id="navigation">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="about.html" target="blame" id = "a">About </a>
+              <ul>
+                <li><a href="Introducton.html" target="blame" id="a1">Introduction</a></li>
+              </ul>
+            </li>
+            <li><a href="Contact.html" target="blame"  id = "a">Contact Us </a></li>
+            <li><a href="Signin.html" target="blame" id = "a">Signin </a></li>
+            <li><a href="Signup.html" target="blame"  id = "a">Signup</a></li>
+             
+        </ul>
+      </nav><br><br><br>
+    <div id="img"> 
+        <img src="images/Saylani-logo.png" style="padding-left: 388px;" alt="Saylani-logo">
+      </div>
+      <h1><u>STUDENT SIGNUP FORM</u></h1>
+    
+</head>
+
+<body >
+ 
+    <form action="signin.html" method="POST">
+      <fieldset>
+          
+
+         
+         
+            <label for="FIRST NAME">FIRST NAME:</label>
+            &emsp;&emsp;&emsp;&nbsp;<input required id="FIRST NAME" type="text"  name="FIRST NAME" size="15" maxlength="30" 
+            placeholder="Enter Your Name" />(max 30 characters a-z and A-Z) <br><br>
+
+            
+        
+            <label for="LAST NAME">LAST NAME:</label>
+            &emsp;&emsp;&emsp;&ensp;<input required id="LAST NAME" type="text" name="LAST NAME" size="15" maxlength="30" 
+            placeholder="Enter Your Last Name" />(max 30 characters a-z and A-Z) <br><br>
+
+
+            <label for="Username">USERNAME:</label>
+            &emsp;&emsp;&emsp;&nbsp;&nbsp;<input required id="USERNAME" type="text"  name="Username" size="15" maxlength="20" 
+            placeholder="Enter Your Username" />(max 20 characters a-z and A-Z) <br><br>
+
+            DATE OF BIRTH&emsp;&emsp;&nbsp;
+            <select name="DAY">
+              <option> - Day - </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="MONTH">
+              <option> - Month - </option>
+              <option value="January">January</option>
+              <option value="Febuary">Febuary</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="DOBYear">
+              <option> - Year - </option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option> 
+            </select><br><br>
+
+            <label for="EMAIL ID" required>EMAIL ID:</label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;<input required id="EMAIL ID" type="email" name="EMAIL ID" size="15" maxlength="100" 
+                placeholder="Enter email address" required/><br><br>
+
+        <label for="PASSWORD"><b>PASSWORD</b></label>
+        &emsp;&emsp;&emsp;&emsp;<input type="PASSWORD" placeholder="Enter Password" name="PASSWORD" size="15" maxlength="20" required /> <br><br>
+
+            <label for="MOBILE NUMBER">MOBILE NUMBER:</label>
+            &emsp;<input required id="MOBILE NUMBER" type="number" name="MOBILE NUMBER" size="20"
+            placeholder="Enter mobile number" />(10 digit number)<br><br>
+
+            GENDER:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+            Male: <input type="radio" name="Gender" value="male">
+            Female: <input type="radio" name="Gender" value="female"><br><br>
+
+            
+
+            <label for="CITY">CITY</label>
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&nbsp;<input required id="CITY" type="text" name="CITY" size="20" maxlength="30"
+            placeholder="Enter cty name" />(max 30 characters a-z and A-Z)<br><br>
+
+            <label for="PINCODE">PINCODE</label>
+            &emsp; &emsp; &emsp; &emsp; &ensp;<input required id="PINCODE" type="number" name="PINCODE" size="20"
+            placeholder="Enter Pincode" />(6 digit number)<br><br>
+
+            <label for="STATE">STATE</label>
+            &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;<input required id="STATE" type="text" name="STATE" size="20" maxlength="30"
+            placeholder="Enter state" />(max 30 characters a-z and A-Z)<br><br>
+
+            <label for="COUNTRY">COUNTRY</label>
+            &emsp;&emsp; &emsp; &emsp; &ensp;<input required id="COUNTRY" type="text" name="COUNTRY" size="20" maxlength="40"
+            placeholder="Enter Country" /><br><br><br>
+            
+             <span style="padding-left: 200px;"><input class="submit" type="submit"  value='Submit'>
+                
+                 <input class="reset" type="reset" value="Reset"><br></span>
+        
+                
+                
+                  
+                 
+      
+    </fieldset>
+  </form>
+  <div class="k" style="width: 100%;">
+    <div id="j">
+     
+      Main Campus, <br>
+            X-25, Saudabad Chowrangi Karachi, Pakistan 
+        <span style="padding-left: 530px;">
+          <a href="https://www.facebook.com/Oxford-English-Public-School-363164010531069/?epa=SEARCH_BOX" target="blank"> 
+            <img src="images/Capture.PNG" id="img1" width="25x" >
+          </a> 
+          <a href="http://twitter.com/OEPS" target="blank">
+            &nbsp;<img src="images/Capture1.PNG" id="img1" width="20x" height="20px" >
+          </a>
+          <a href="instagram.com/OEPS/" target="blank">
+            &nbsp;<img src="images/Capture2.PNG" id="img1" width="20x" height="20px" >
+          </a>
+          <a href="http://www.youtube.com/c/OEPSPage" target="blank"> 
+           &nbsp;&ensp;<img src="images/Capture3.PNG" id="img1" width="20x" height="20px" >
+          </a>
+        </span>
+        
+      </div>
+  
+   <ul>
+     <li id="k"> <i class="fa fa-phone text-theme-colored mr-5" style="font-size:20px; color:green;padding-left: 60px; padding-top: 1px;"></i>&nbsp;UAN: XXX-XXX-XXX
+    <span style="padding-left: 20px;"></span> <i class="fa fa-globe text-theme-colored mr-5" style="font-size:20px; color:green"></i>(+00XX-XXX) XXXXXXX-XX</li> <br>
+     
+      <li id="k"> <i class="fa fa-phone text-theme-colored mr-5" style="font-size:20px; color:green;padding-left: 60px; padding-top: 1px;"></i>&nbsp;CELL: XX-XXX-XXXXXXX</li><br>
+     <li id="k"> <i class="fa fa-phone text-theme-colored mr-5" style="font-size:20px; color:green;padding-left: 60px; padding-top: 1px;"></i>&nbsp;USA NO +1(XXX)XXX XXXX</li><br>
+     <li id="k"><i class="fa fa-phone text-theme-colored mr-5" style="font-size:20px; color:green;padding-left: 60px; padding-top: 1px;"></i>&nbsp; UK NO (+XX)XXX XXX XXX</li><br>
+     <li id="k"> <i class="fa fa-envelope-o text-theme-colored mr-5" style="font-size:20px; color:green;padding-left: 60px; padding-top: 1px;"></i>&nbsp; info@OEPSSchool.com</li>
+   </ul>
+  </div> 
+   
+  
+    </div>
+  
+    <div class="footer">
+      <p>Copyright © 2020 OEPS School</p>
+    </div>
+            
+
+</body>
+</html>

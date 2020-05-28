@@ -1,0 +1,185 @@
+#a {
+  color: Black;
+  }
+  #a:hover {
+  background-color: #316DC3;
+  color: white;
+  border-radius: 25px;
+  }
+  #a:focus {
+  background-color: #316DC3;
+  color: white;
+  border-radius: 25px;
+  }
+  #a1 {
+  color: Black;
+  }
+  #a1:hover {
+  background-color: #316DC3;
+  color: white;
+  }
+  #home{
+      background-color: #316DC3;
+      border-radius: 25px;
+      color: White;
+  
+    }
+  .navbar{
+      background-color: grey !important;
+      border-radius: 20px;
+  }
+  .about{
+    background-color: lightslategray;
+    font-size: 30px;
+    color: rgb(32, 136, 136);
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    border-radius: 10px;
+  }
+  #div1 {
+    text-align: justify;
+    text-justify: inter-word;
+    padding:0px 90px 0px 90px;
+    color: gray;
+    text-shadow: 1px 1px 2px lightslategray;
+  
+  }
+  .head{
+    font-size: 35px;
+    color: #555;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+  }
+  @media screen and (max-width: 150px) {
+    #div1{
+      width: 100%;
+      
+    }
+  }
+  .card{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .card-text{
+    color: black;
+    text-align: center;
+  }
+  .btn-primary{
+    width: 100%;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 200px) {
+    .column, .k .j{
+      width: 100%;
+      display: inline-flex;
+    }
+  }
+  #j{
+    padding-top: 5px;
+    padding-left: 100px;
+    font: 14px sans-serif;
+    color: limegreen;
+    width: 100%;
+    
+  }
+  .k{
+   
+    font: 14px sans-serif;
+    background-color: #666666;
+    height: 200px;
+   }
+   #k{
+      display: inline-block;
+   }
+   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+   font: 11px sans-serif;
+    background-color: #316DC3;
+    color: white;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+    
+ }
+ .card1{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 300px;
+}
+.card2{
+  margin-left: 130px;
+  width: 300px;
+}
+         /* Principle-Msg */
+         .slider{
+       
+          width: 1350%;
+            height: 750px;
+            background: url(images/d.jpg);
+            animation: slide 20s infinite;
+            /* margin: 10px auto;
+            padding-top: 10px; */
+           }
+        @keyframes 
+         slide{
+               25%{
+                 background: url(images/e.jpg);
+               }
+               50%{
+                 background: url(images/f.jpg);
+               }75%{
+                 background: url(images/g.jpg);
+               }100%{
+                 background: url(images/d.jpg);
+               }
+           }
+           #L{
+            text-align: center;
+          color: slategrey;
+          text-shadow: slategrey;
+          }
+          #div2 {
+            text-align: justify;
+            text-justify: inter-word;
+            padding:0px 90px 0px 90px;
+            color: grey;
+            text-shadow: 1px 1px 1px grey;
+          
+          }

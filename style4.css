@@ -1,0 +1,226 @@
+/* Sigun-up CSS */
+table
+{
+padding-left: 165px;
+}
+
+div.relative {
+    position: relative;
+    top:-100px;
+  }
+  label.relative {
+    position: relative;
+    top:-50px;
+  }
+  #img{
+    text-align: center;
+  }
+  h1 {
+      text-align: center;
+      color: #6b5acd;
+      text-underline-offset: auto;
+  }
+  fieldset {
+    background-color:lightcoral;
+    
+    padding-left: 350px;
+    
+    
+  }
+  /* body{
+    /* background-image: url(https://ak1.picdn.net/shutterstock/videos/925081/thumb/1.jpg);
+   background-size: 1350px;
+   background-attachment: fixed */
+   */
+    
+
+ @media screen and (max-width: 200px) {
+    .reset {
+       width: 100%;
+    }
+    .submit{
+        width:100%;
+    }
+ }
+ 
+  #h2 {
+    text-align: center;
+    color: #6b5acd;
+    font-size: xx-large;
+    padding: 10;
+  }
+p{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+}
+#j{
+  padding-top: 5px;
+  padding-left: 100px;
+  font: 14px sans-serif;
+  color: limegreen;
+  width: 100%;
+  
+}
+.k{
+ 
+  font: 14px sans-serif;
+  background-color: #666666;
+  height: 200px;
+ /* padding-bottom: 200px; */
+ }
+ #k{
+    display: inline-block;
+ }
+ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+ font: 11px sans-serif;
+  background-color: #316DC3;
+  color: wheat;
+  padding-left: 50px;
+  padding-top: 5px;
+    padding-bottom: 30px;
+  
+}
+#nav {
+  
+  margin-top:20px;
+  padding-left:350px;
+  font-size: larger;
+ 
+  
+}
+.nav{
+  background-color: #316DC3;
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+}
+ul#navigation {
+  margin:0px auto;
+  position:relative;
+  float:right;
+  padding-right: 30px;
+  padding-top: 20px;
+ 
+}
+
+ul#navigation li {
+  display:inline;
+  font-size:12px;
+  font-weight:bold;
+  margin:0;
+  padding:0;
+  
+  position:relative;
+  
+}
+ul#navigation li a {
+  padding:10px 25px; 
+  text-decoration:none;
+  display:inline-block;
+}
+
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+  visibility:visible;
+  opacity:1;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  visibility:hidden;
+  opacity:0;
+  position: absolute;
+  z-index: 99999;
+  width:180px;
+  background:#f8f8f8;
+  border-radius: 10px;
+  
+/* css3 transitions for smooth hover effect */
+  -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
+  -moz-transition:opacity 0.2s linear, visibility 0.2s linear;
+  -o-transition:opacity 0.2s linear, visibility 0.2s linear;
+  transition:opacity 0.2s linear, visibility 0.2s linear;
+}
+
+ul#navigation ul {
+  top: 43px;
+  left: 1px;
+}
+
+ul#navigation ul li ul {
+  top: 0;
+  left: 181px; /* strong related to width:180px; from above */
+  border-radius: 10px;
+}
+
+ul#navigation ul li {
+  clear:both;
+  width:100%;
+  border-radius: 10px;
+}
+
+ul#navigation ul li a {
+  background:none;
+  padding:7px 15px;
+ 
+  display:inline-block;
+  border-radius: 10px;
+  float:left;
+  clear:both;
+  width:150px;
+  
+}
+#a1 {
+  color: Black;
+  }
+  #a1:hover {
+  background-color: #316DC3;
+  color: white;
+  }
+
+#home{
+  background-color: #316DC3;
+  border-radius: 25px;
+  color: White;
+
+}
+ul#navigation li a {
+  padding:10px 25px; 
+  text-decoration:none;
+  display:inline-block;
+}
+
+
+ul#navigation ul {
+  top: 43px;
+  left: 1px;
+}
+
+
+ul#navigation ul li {
+  clear:both;
+  width:100%;
+  
+}
+
+ul#navigation ul li a {
+  background:none;
+  padding:7px 15px;
+ 
+  display:inline-block;
+  
+  float:left;
+  clear:both;
+  width:150px;
+  
+}
